@@ -5,7 +5,7 @@ locals {
 }
 
 module "labels" {
-  source = "https://github.com/dhyanio/terraform-aws-labels"
+  source = "github.com/dhyanio/terraform-aws-labels"
 
   name        = var.name
   environment = var.environment
